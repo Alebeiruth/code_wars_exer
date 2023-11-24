@@ -1,3 +1,5 @@
+##EXERCICIO 01/100
+
 import re ## permite uso de expressoes regulares em PY
 
 def validate_usr(username):
