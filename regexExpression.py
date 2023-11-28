@@ -32,6 +32,7 @@ def basic_op(operator, value1, value2):
     return eval("{}{}{}".format(value1, operator, value2))
 
 ##eval > avalia o valor da expressão, se for valor valido ele executa 
+##exemplo str = "0" > se for valor valido ele executa
 
 ##EXERCICIO 05/100 > pede para contar o numero de sheep 
 
