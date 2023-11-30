@@ -75,4 +75,3 @@ print(x)
 print(list(x))
 ['appleorange', 'bananalemon', 'cherrypineapple']
 """
->>>>>>> deb1176 (adc exerc 6 e 7)
