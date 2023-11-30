@@ -41,3 +41,38 @@ def count_sheeps(sheep):
   return sheep.count(True)
 
 ##uitliza count para contar
+<<<<<<< HEAD
+=======
+
+##EXERCICIO 06/100 > pede para trocar str 
+def DNA_strand(dna):
+    # code here
+     return dna.translate(str.maketrans("ATCG","TAGC")) 
+
+# translate() retorna uma string onde alguns caracteres especificados são substituídos pelo caracter descrito em um dicionário, ou em uma tabela de mapeamento.
+# método maketrans() cria uma tabela de mapeamento
+
+##EXERCICIO 07/100 >
+def positive_sum(arr):
+    # Your code here
+    return sum(map(lambda x: x if x > 0 else 0, arr))
+
+## FUCTION SUM
+""" a = (1, 2, 3, 4, 5)
+ x = sum(a)
+ x = 15""" 
+
+## FUCTION MAP
+"""def myfunc(a, b):
+  return a + b
+
+x = map(myfunc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
+
+print(x)
+<map object at 0x034244F0>
+
+#convert the map into a list, for readability:
+print(list(x))
+['appleorange', 'bananalemon', 'cherrypineapple']
+"""
+>>>>>>> deb1176 (adc exerc 6 e 7)
