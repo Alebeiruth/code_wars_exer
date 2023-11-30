@@ -40,9 +40,7 @@ def count_sheeps(sheep):
   ## Todo May the force be with you
   return sheep.count(True)
 
-##uitliza count para contar
-<<<<<<< HEAD
-=======
+##utiliza count para contar
 
 ##EXERCICIO 06/100 > pede para trocar str 
 def DNA_strand(dna):
