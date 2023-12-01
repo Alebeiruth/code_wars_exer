@@ -74,7 +74,7 @@ print(list(x))
 ['appleorange', 'bananalemon', 'cherrypineapple']
 """
 
-##EXERCICIO 08/100 > verificar se a primeira str é igual a ultima exp solution('abc', 'bc')
+##EXERCICIO 08/100 > verificar se a primeira str é igual a ultima exp solution('abc', 'bc') = True
 
 def solution(text, ending):
     # your code here...
