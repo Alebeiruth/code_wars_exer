@@ -89,5 +89,5 @@ def number(bus_stops):
 # stop[0] - stop[1] > calcula diferença entre n de passageiros q entram e os que saem
 # (stop[0] - stop[1] for stop in bus_stops) > cria um iterados pra cada parada
 # sum() soma todos o valores da expressão anterior e geradora de valor
-# EXP: bus_stops = [(10, 0), (3, 5), (2, 3)]
-#      print(number(bus_stops)) = -7
+# EXP: bus_stops = [(10, 0), (3, 5), (2, 3)] > 10 - 0 = 10 / 3 - 5 = -2 / 10 - 2 = 8 / 2 - 3 = -1 / 8 - 1 = 7
+#      print(number(bus_stops)) = 7
