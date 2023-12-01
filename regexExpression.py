@@ -80,3 +80,11 @@ def solution(text, ending):
     # your code here...
     return text.endswith(ending)
 # metodo endswith retorna True se a str terminar com valor especificado, se não False  
+
+##EXERCICIO 09/100 > esse exercicio solicita retorno do número de pessoas que ainda estão no ônibus após o último ponto de ônibus 
+def number(bus_stops):
+    return sum([stop[0] - stop[1] for stop in bus_stops])
+# for stop in bus_stops > para cada elemento stop na lista bus_stops
+# stop[0] - stop[1] > calcula diferença entre n de passageiros q entram e os que saem
+# (stop[0] - stop[1] for stop in bus_stops) > cria um iterados pra cada parada
+# sum() soma todos o valores da expressão anterior e geradora de valor
