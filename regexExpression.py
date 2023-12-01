@@ -84,7 +84,10 @@ def solution(text, ending):
 ##EXERCICIO 09/100 > esse exercicio solicita retorno do número de pessoas que ainda estão no ônibus após o último ponto de ônibus 
 def number(bus_stops):
     return sum([stop[0] - stop[1] for stop in bus_stops])
+    
 # for stop in bus_stops > para cada elemento stop na lista bus_stops
 # stop[0] - stop[1] > calcula diferença entre n de passageiros q entram e os que saem
 # (stop[0] - stop[1] for stop in bus_stops) > cria um iterados pra cada parada
 # sum() soma todos o valores da expressão anterior e geradora de valor
+# EXP: bus_stops = [(10, 0), (3, 5), (2, 3)]
+#      print(number(bus_stops)) = -7
