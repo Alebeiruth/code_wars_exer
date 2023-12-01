@@ -73,3 +73,10 @@ print(x)
 print(list(x))
 ['appleorange', 'bananalemon', 'cherrypineapple']
 """
+
+##EXERCICIO 08/100 > verificar se a primeira str é igual a ultima exp solution('abc', 'bc')
+
+def solution(text, ending):
+    # your code here...
+    return text.endswith(ending)
+# metodo endswith retorna True se a str terminar com valor especificado, se não False  
