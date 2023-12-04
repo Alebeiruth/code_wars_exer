@@ -91,3 +91,17 @@ def number(bus_stops):
 # sum() soma todos o valores da expressão anterior e geradora de valor
 # EXP: bus_stops = [(10, 0), (3, 5), (2, 3)] > 10 - 0 = 10 / 3 - 5 = -2 / 10 - 2 = 8 / 2 - 3 = -1 / 8 - 1 = 7
 #      print(number(bus_stops)) = 7
+
+##EXERCICIO 10/100 > Se bollean for True retorne "Yes" se for False "No"
+def bool_to_word(boolean):
+    # TODO
+    return "Yes" if boolean == True else "No"
+
+##EXERCICIO 11/100 > retorna string se ela possuir tamanho 4 str
+def friend(x):
+    return [n for n in x if len(n) == 4
+##return um nova lista 
+##for n in x > itera sobre cada elemento N na Lista x
+## if len(n) == 4 > filtra N incluindo-o na lista de return apenas se o tamanho/len de N dor 4 str
+
+
