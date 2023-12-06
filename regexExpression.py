@@ -104,4 +104,22 @@ def friend(x):
 ##for n in x > itera sobre cada elemento N na Lista x
 ## if len(n) == 4 > filtra N incluindo-o na lista de return apenas se o tamanho/len de N dor 4 str
 
+##EXERCICIO 12/100 > retorna True se o triangulo é possivel ou não
+def is_triangle(a, b, c):
+    return (a<b+c) and (b<a+c) and (c<a+b)
+## desigualdade triangular afirma que a soma dos comprimentos de quaisquer lados de um triangulo deve ser maior
+## que o comprimento do terceiro lado.
+
+##EXERCICIO 13/100 > procurar o ano e recebe o seculo q o ano se encontra
+def century(year):
+    # Finish this :)
+    return (year + 99) // 100
+
+g = century(1709)
+print(g) 
+## seculo 18
+
+##EXERCICIO 14/100 >
+
+
 
