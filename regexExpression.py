@@ -119,7 +119,22 @@ g = century(1709)
 print(g) 
 ## seculo 18
 
-##EXERCICIO 14/100 >
+##EXERCICIO 14/100 > contar os numeros que são divisiveis
+def divisors(n):
+    return len([ x for x in range(1, n + 1) if n % x == 0 ]);
 
+# len calcula o tamanho da lista 
+# abertura de [] cria lista com todos os x que dividem n
+# x for x in range(1, n+1) > itera sobre a sequencia de numeros
+# range (1, n+1) > gera sequencia de numeros de 1 a N
+# if verifica se n é divisivel por x
+
+##EXERCICIO 15/100 > entre dois numeros int positivo e negativo, achar a soma de todos inteiros
+def get_sum(a,b):
+    #good luck!
+    return sum(range(min(a, b), max(a, b) + 1))
+##range (min(a, b), max(a, b) + 1) > cria uma sequencia de numeros, a funçaõ min retorna o menor numero
+## dois dois numeros, enquanto max retorna o maior. O +1 é necessario porque range não inclui o ultimo 
+## numero...indice 0...1...2...etc
 
 
