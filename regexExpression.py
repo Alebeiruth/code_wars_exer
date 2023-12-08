@@ -137,4 +137,15 @@ def get_sum(a,b):
 ## dois dois numeros, enquanto max retorna o maior. O +1 é necessario porque range não inclui o ultimo 
 ## numero...indice 0...1...2...etc
 
+##EXERCICIO 16/100 > calcular o triple do numero
+def row_sum_odd_numbers(n):
+    #your code here
+    return n ** 3
 
+##EXERCICIO 17/100 > saber se sua nota é maior que a média da turma
+def better_than_average(class_points, your_points):
+    # Your code here
+    return your_points > sum(class_points) / len(class_points)
+    
+## sum(class_points) / len(class_points)
+## se sua nota for > que a divisão da soma de todos pontos por quantidade de pessoas que fizeram os pontos
