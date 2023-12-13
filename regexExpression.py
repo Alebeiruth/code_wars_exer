@@ -149,3 +149,22 @@ def better_than_average(class_points, your_points):
     
 ## sum(class_points) / len(class_points)
 ## se sua nota for > que a divisão da soma de todos pontos por quantidade de pessoas que fizeram os pontos
+
+##EXERCICIO 18/100 > remover (#) usando split
+def remove_url_anchor(url):
+    # TODO: complete
+    return url.split("#")[0]
+## split separa em duas parte o URL, 0 e 1, onde 0 retorna sem #
+
+##EXERCICIO 19/100 > definir qual dos tres numeros inseridos ira ficar no meio > indice 0,1,2
+def gimme(input_array):
+    # Implement this function
+    return input_array.index(sorted(input_array)[1])
+
+##index > função que mostra a posição do elemento
+##sorted > organiza de forma crescente 
+##chamada da função > print(gimme([6,2,3]))
+
+
+
+
