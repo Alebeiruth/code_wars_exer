@@ -165,6 +165,14 @@ def gimme(input_array):
 ##sorted > organiza de forma crescente 
 ##chamada da função > print(gimme([6,2,3]))
 
+##EXERCICIO 20/100 > o problema pede soma de todos os numeros de 1 a num 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
+def summation(num):
+    return sum(range(1, num+1))
+
+##EXERCICIO 21/100 > Retorna o número (contagem) de vogais na string fornecida. considerando as vogais minusculas e maisc
+def get_count(sentence):
+    return sum(1 for i in sentence if i in "aeiouAEIOU")
+
 
 
 
